@@ -44,7 +44,7 @@ public class Pedido extends BaseEntidad {
     public void mostrarDetallePedido(){
       ;
         for (DetallePedido detallePedido : detallesPedidos){
-            System.out.println("Cantidad: ACA ESTA LA CANTIDAD " + detallePedido.getCantidad() + ", sub Total: "+ detallePedido.getSubTotal());
+            System.out.println("Cantidad: "  + detallePedido.getCantidad() + ", sub Total: "+ detallePedido.getSubTotal());
         }
         System.out.println(" ");
     }

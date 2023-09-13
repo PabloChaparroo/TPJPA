@@ -26,7 +26,7 @@ public class TpjpaApplication {
 	@Autowired
 			PedidoRepository pedidoRepository;
 	@Autowired
-	RubroRepository rubroRepository;
+			RubroRepository rubroRepository;
 
 
 	public static void main(String[] args) {
